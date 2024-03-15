@@ -21,18 +21,25 @@ Follow these steps to set up and run the application:
     sudo service mongod start
     ```
 
-4. **Seed Initial Data**:
-    - Once MongoDB is up and running, seed the initial data by executing:
+4. **Run the Application to Initialize the Database**:
+    - Run the application to initialize the database (database name - ai_chatbot):
+    ```bash
+    npm run dev
+    ```
+    Note: You may encounter errors during this step due to the absence of initial data.
+
+5. **Seed Initial Data**:
+    - After initializing the database, seed the initial data by executing:
     ```bash
     npm run seed
     ```
-    Note: You might encounter some errors during this step. This is expected and can be resolved by following the subsequent steps.
+    This step will populate the database with necessary data.
 
-5. **Run the Application**:
+6. **Run the Application**:
     - Finally, start the application by running:
     ```bash
-    yarn run dev
+    npm run dev
     ```
-    This command will start the development server and you should be able to access the application.
+    This command will start the development server, and you should be able to access the application.
 
 By following these steps, you should be able to successfully set up and run the application. If you encounter any issues, refer to the error messages for troubleshooting or consult the documentation.
