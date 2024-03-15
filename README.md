@@ -1,4 +1,6 @@
-# Setting Up the Code
+# ai-chatbot-api
+
+## Setting Up the Code
 
 Follow these steps to set up and run the application:
 
